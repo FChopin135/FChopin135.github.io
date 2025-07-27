@@ -1,0 +1,83 @@
+.Checkout-Form {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.Checkout-Form input[type="text"] {width: 120%; height: 50%;}
+.Checkout-Form input[type="date"] {width: 120%; height: 50%;}
+.Checkout-Form input[type="number"] {width: 120%; height: 50%;}
+.Checkout-Form input[type="tel"] {width: 120%; height: 50%;}
+
+.Checkout-Form .Input-Row {
+  display: flex;
+  gap: 90px;
+  margin-bottom: 10px;
+}
+
+.Checkout-Form .Form-Field {
+  flex: 1;
+}
+
+.Tip-Options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  font-size: 135%;
+}
+
+.Tip-Label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.Tip-Options input[type="radio"] {width: 24px; height: 24px; margin-right: 15px; margin-bottom: 15%;}
+
+.Total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 135%;
+}
+
+.Total button {
+  margin-top: 5%;
+  padding: 2% 15%;
+  font-size: 1.2em;
+  width: auto;
+  height: auto;
+}
+
+.Loyalty-Rewards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Loyalty-Rewards button {
+  margin-top: 5%;
+  padding: 2% 15%;
+  font-size: 1.2em;
+  width: auto;
+  height: auto;
+}
+
+.Tip-Radios label {
+  font-size: 90%;
+}
+
+#orderSummary h2 {
+  font-size: 250%;
+}
+
+#orderSummary li {
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+#orderSummary p {
+    font-size: 180%;
+    font-weight: bold;
+    margin-top: 20px;
+}
